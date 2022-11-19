@@ -14,6 +14,7 @@
         --soc-icon:#AFB1B8;
         --primery-letter-spacing: 0.03em;
         --secondary-letter-spacing: 0.02em;
+        --anim-slow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
  
@@ -136,9 +137,8 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--anim-slow);
+
 
 
 
@@ -301,9 +301,8 @@ img {
     padding-bottom: 10px;
     padding-left: 32px;
 
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--anim-slow), background-color var(--anim-slow);
+   
 
 
 
@@ -540,9 +539,8 @@ img {
 
     color: var(--soc-icon);
 
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--anim-slow), background-color var(--anim-slow);
+  
 
 }
 
@@ -607,9 +605,8 @@ img {
 
     color: var(--soc-icon);
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--anim-slow);
+    
 
 }
 
@@ -708,9 +705,8 @@ img {
 
 .contacts-footer {
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--anim-slow);
+   
 }
 
 
@@ -773,9 +769,8 @@ img {
 
     color: var(--primery-bg-color);
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--anim-slow);
+
 
 }
 
@@ -823,9 +818,7 @@ img {
     padding-bottom: 6px;
     padding-left: 22px;
 
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color var(--anim-slow), background-color var(--anim-slow);
 
 }
 
@@ -918,9 +911,7 @@ img {
     height: 100%;
 
     transform: translateY(100%);
-    transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform var(--anim-slow);
 
     padding-top: 63px;
     padding-bottom: 63px;
@@ -961,7 +952,7 @@ img {
     
     background-color: rgba(0, 0, 0, 0.2);
 
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    transition: opacity var(--anim-slow), visibility var(--anim-slow);
 }
 
 .modal {
@@ -980,7 +971,7 @@ img {
 
     transform: translate(-50%, -50%) scaleY(1);
 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform var(--anim-slow);
 
     
 }
@@ -1022,6 +1013,3 @@ img {
     pointer-events: none;
 
 }
-
-
-       
