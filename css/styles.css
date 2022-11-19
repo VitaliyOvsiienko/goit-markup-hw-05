@@ -301,7 +301,7 @@ img {
     padding-bottom: 10px;
     padding-left: 32px;
 
-    transition-property: color;
+    transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -540,7 +540,7 @@ img {
 
     color: var(--soc-icon);
 
-    transition-property: color;
+    transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -773,7 +773,7 @@ img {
 
     color: var(--primery-bg-color);
 
-    transition-property: color;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -823,7 +823,7 @@ img {
     padding-bottom: 6px;
     padding-left: 22px;
 
-    transition-property: color;
+    transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
