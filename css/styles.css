@@ -918,11 +918,13 @@ img {
     padding-left: 24px;
     padding-right: 24px;
 
+    color: var(--primery-bg-color);
+    background-color: rgba(33, 150, 243, 0.9);
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: var(--primery-letter-spacing);
-    color: var(--primery-bg-color);
-    background-color: var(--primery-accent);
+    
+
 
 }
 
@@ -931,6 +933,8 @@ img {
     position: relative;
     
     overflow: hidden;
+
+    
 
 }
 
