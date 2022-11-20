@@ -134,16 +134,12 @@ img {
 
 
 .link{
+    
     padding-top: 32px;
     padding-bottom: 32px;
 
-    transition: color var(--anim-slow);
-
-
-
-
     
-   
+
 }
 
 
@@ -159,6 +155,12 @@ img {
     color: var(--primery-accent);
 
     position: relative;
+
+}
+
+.link-item {
+    
+    transition: color var(--anim-slow);
 }
 
 
@@ -195,6 +197,8 @@ img {
 .connect {
     display: flex;
     align-items: center;
+
+    transition: color var(--anim-slow);
 
 }
 
@@ -818,7 +822,7 @@ img {
     padding-bottom: 6px;
     padding-left: 22px;
 
-    transition: color var(--anim-slow), background-color var(--anim-slow);
+    transition: color var(--anim-slow), background-color var(--anim-slow), box-shadow var(--anim-slow);
 
 }
 
@@ -867,6 +871,8 @@ img {
 
     text-decoration: none;
     display: block;
+
+    transition: box-shadow var(--anim-slow );
 
 }
 
